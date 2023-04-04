@@ -16,3 +16,14 @@ Then use `yarn` to install dependencies.
 
 `cd supaship-io`
 `yarn dev`
+
+# Supabase dependencies
+
+To add supabase dependencies to the project:
+
+`yarn add -D supabase`
+
+`supabase init`
+
+`supabase start`
+
