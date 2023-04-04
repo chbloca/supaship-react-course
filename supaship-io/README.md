@@ -57,11 +57,16 @@ webServer: {
 },
 ```
 
+Then to detect ports we need a dependency:
+`yarn add -D detect-port`
+
 Advantages:
 - No mocking
 - No auth hacks
 - Speed
 - Reliability
+
+
 
 # Troubleshooting
 
