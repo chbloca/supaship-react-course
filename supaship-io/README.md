@@ -39,6 +39,12 @@ To keep track of changes in the structure of the database:
 
 Note: ddl is data definition language
 
+Later, when new changes are applied from the Supabase Studio interface:
+
+`supabase db diff --use-migra --file=<name of the migration>`
+
+However, it is recommended to write changes directly in the .sql files.
+
 `supabase db push` to push to production
 
 # Playwright is a testing tool
