@@ -3,7 +3,7 @@ import AllPosts from "./AllPosts";
 import MessageBoard from "./MessageBoard";
 import NavBar from "./NavBar";
 import PostView from "./PostView";
-import Welcome from "./Welcome";
+import Welcome, { welcomeLoader } from "./Welcome";
 import { SupashipUserInfo, useSession } from "./use-session";
 import { createContext } from "react";
 
@@ -29,6 +29,7 @@ const router = createBrowserRouter([
       {
         path: "welcome",
         element: <Welcome />,
+        loader: welcomeLoader, // just this line right here; be sure to export this function from Welcome.tsx!
       },
     ],
   },
