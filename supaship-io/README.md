@@ -39,6 +39,24 @@ Note: ddl is data definition language
 
 # Playwright is a testing tool
 
+Within supaship-io folder:
+
+`yarn create playwright`
+
+- end-to-end directory: e2e
+- github actions: false
+- install: true
+
+To the playwright.config.ts:
+
+```
+webServer: {
+    command: 'yarn dev',
+    port: 1337,
+    reuseExistingServer: true,
+},
+```
+
 Advantages:
 - No mocking
 - No auth hacks
