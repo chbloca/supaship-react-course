@@ -53,6 +53,10 @@ If using Supabase Studio:
 
 Authentication tab > Policies > <table name> > Enable RLS (Row Level Security)
 
+# Supabase generate types
+
+`supabase gen types typescript --local > ./src/database.types.ts`
+
 # Playwright is a testing tool
 
 Within supaship-io folder:
