@@ -27,6 +27,10 @@ To add supabase dependencies to the project:
 
 `supabase start`
 
+Also for the react app:
+
+`yarn add @supabase/auth-ui-react @supabase/supabase-js`
+
 # Supabase migration
 
 To keep track of changes in the structure of the database:
