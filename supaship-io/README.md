@@ -27,3 +27,27 @@ To add supabase dependencies to the project:
 
 `supabase start`
 
+# Supabase migration
+
+To keep track of changes in the structure of the database:
+
+`supabase migration new starting-ddl`
+
+Note: ddl is data definition language
+
+`supabase db push` to push to production
+
+# Playwright is a testing tool
+
+Advantages:
+- No mocking
+- No auth hacks
+- Speed
+- Reliability
+
+# Troubleshooting
+
+If testing with libraries is problematic, remove module from packages.json
+
+If issues with authentication in local, see Supabase CLI video 02:20
+
