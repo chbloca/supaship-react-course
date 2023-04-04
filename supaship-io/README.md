@@ -29,7 +29,7 @@ To add supabase dependencies to the project:
 
 Also for the react app:
 
-`yarn add @supabase/auth-ui-react @supabase/supabase-js`
+`yarn add @supabase/auth-ui-react @supabase/supabase-js @supabase/auth-ui-shared`
 
 # Supabase migration
 
