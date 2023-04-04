@@ -47,6 +47,12 @@ However, it is recommended to write changes directly in the .sql files.
 
 `supabase db push` to push to production
 
+# Supabase policies
+
+If using Supabase Studio:
+
+Authentication tab > Policies > <table name> > Enable RLS (Row Level Security)
+
 # Playwright is a testing tool
 
 Within supaship-io folder:
